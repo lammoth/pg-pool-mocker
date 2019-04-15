@@ -1,0 +1,31 @@
+{
+  "name": "pg-pool-mocker",
+  "version": "0.1.0",
+  "description": "pg-pool-mocker is a nodejs tool to mock a node pg pool",
+  "main": "dist/mocker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lammoth/pg-pool-mocker.git"
+  },
+  "keywords": [
+    "pg",
+    "pool",
+    "node",
+    "mock",
+    "fake"
+  ],
+  "author": "Francisco Hidalgo <fjhidalgo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lammoth/pg-pool-mocker/issues"
+  },
+  "homepage": "https://github.com/lammoth/pg-pool-mocker#readme",
+  "dependencies": {
+    "pg": "~7.8.0"
+  }
+}
